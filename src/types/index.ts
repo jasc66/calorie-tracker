@@ -1,6 +1,7 @@
 export type Category = {
     id: number,
-    name: string
+    name: string,
+    details: string
 }
 
 export type Activity = {
@@ -8,4 +9,5 @@ export type Activity = {
     category: number
     name: string
     calories: number
+    details: string
 }
