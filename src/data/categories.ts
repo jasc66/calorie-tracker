@@ -1,0 +1,51 @@
+import type { Category } from "../types";
+
+// Lista de actividades físicas
+export const exerciseCategories: Category[] = [
+    { id: 1, name: 'Caminar' },
+    { id: 2, name: 'Correr' },
+    { id: 3, name: 'Pesas' },
+    { id: 4, name: 'Crossfit' },
+    { id: 5, name: 'Senderismo' },
+    { id: 6, name: 'Natación' },
+    { id: 7, name: 'Yoga' },
+    { id: 8, name: 'Pilates' },
+    { id: 9, name: 'Ciclismo' },
+    { id: 10, name: 'Baile' },
+    { id: 11, name: 'Entrenamiento de intervalos' },
+    { id: 12, name: 'Flexiones' },
+    { id: 13, name: 'Ejercicios abdominales' },
+    { id: 14, name: 'Levantamiento de pesas' },
+    { id: 15, name: 'Tai Chi' },
+    { id: 16, name: 'Zumba' },
+    { id: 17, name: 'Escalada en roca' },
+    { id: 18, name: 'Fútbol' },
+    { id: 19, name: 'Baloncesto' },
+    { id: 20, name: 'Tenis' },
+    { id: 21, name: 'Voleibol' },
+    { id: 22, name: 'Golf' },
+    { id: 23, name: 'Cricket' },
+    { id: 24, name: 'Rugby' },
+    { id: 25, name: 'Hockey' },
+];
+
+// Lista de comidas
+export const foodCategories: Category[] = [
+    { id: 1, name: 'Sushi' },
+    { id: 2, name: 'Pizza' },
+    { id: 3, name: 'Ensalada' },
+    { id: 4, name: 'Hamburguesa' },
+    { id: 5, name: 'Tacos' },
+    { id: 6, name: 'Pasta' },
+    { id: 7, name: 'Sopa' },
+    { id: 8, name: 'Sándwich' },
+    { id: 9, name: 'Pollo asado' },
+    { id: 10, name: 'Salmón' },
+    { id: 11, name: 'Tortilla' },
+    { id: 12, name: 'Arroz frito' },
+    { id: 13, name: 'Tofu' },
+    { id: 14, name: 'Frutas' },
+    { id: 15, name: 'Verduras al vapor' },
+    { id: 16, name: 'Batido de proteínas' },
+    { id: 17, name: 'Barra de proteínas' },
+];
