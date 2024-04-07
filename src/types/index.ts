@@ -1,7 +1,6 @@
 export type Category = {
     id: number,
-    name: string,
-    details?: string
+    name: string
 }
 
 export type Activity = {
